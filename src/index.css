@@ -1,0 +1,20 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.user-row, .user-header {
+  padding: 5px 10px;
+  margin: 5px 0;
+}
+
+.user-header {
+  font-weight: bold;
+  color: darkblue;
+  background: gainsboro;
+}
+
+.user-row:nth-of-type(odd) {
+  background: lightgray;
+}
