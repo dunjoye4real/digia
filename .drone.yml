@@ -1,0 +1,6 @@
+pipeline: 
+  tests:
+    image: node:latest
+    commands:
+    - yarn install
+    - yarn test
